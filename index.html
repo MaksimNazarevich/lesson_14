@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lesson 14</title>
+</head>
+<body>
+    <h1 class="lesson-title">FLEX-блоки та FLEX-елементи(на основі уроку)</h1>
+    <div class="wrapper">
+        <div class="page">
+            <h2>display:flex</h2>
+            <h3>Italy</h3>
+            <div class="italy">
+                <div class="italy__item italy__item--green"></div>
+                <div class="italy__item italy__item--white"></div>
+                <div class="italy__item italy__item--red"></div>
+            </div>
+            <h2>display:inline-flex</h2>
+            <h3>Peru</h3>
+            <div class="flag">
+                <div class="peru">
+                    <div class="peru__item peru__item--red"></div>
+                    <div class="peru__item peru__item--white"></div>
+                    <div class="peru__item peru__item--red"></div>
+                </div>
+            </div>
+            <h2>display:inline-flex(разом з flex-wrap:wrap)</h2>
+            <h3>Austria</h3>
+            <div class="flag">
+                <div class="austria">
+                    <div class="austria__item austria__item--red"></div>
+                    <div class="austria__item austria__item--white"></div>
+                    <div class="austria__item austria__item--red"></div>
+                </div>
+            </div>
+            <h2>justify-content:space-between</h2>
+            <h3>Irland</h3>
+            <div class="irland">
+                <div class="irland__item irland__item--green"></div>
+                <div class="irland__item irland__item--orange"></div>
+            </div>
+            <h2>justify-content:flex-end</h2>
+            <h3>Zambia</h3>
+            <div class="zambia">
+                <div class="eagle">
+                    <img src="img/eagle.png" alt="eagle">
+                </div>
+                <div class="zambia__items">
+                    <div class="zambia__item-1"></div>
+                    <div class="zambia__item-2"></div>
+                    <div class="zambia__item-3"></div>
+                </div>
+            </div>
+            <h2>justify-content:center</h2>
+            <h3>Brasil</h3>
+            <div class="brasil">
+                <div class="brasil__item-1">
+                    <img src="img/layer.png" alt="">
+                </div>
+                <div class="brasil__item-2">
+                    <img src="img/rhombus.png" alt="">
+                </div>
+            </div>
+            <h2>justify-content:space-around</h2>
+            <h3>U.S.A.</h3>
+            <div class="usa">
+                <div class="stars">
+                    <img src="img/stars.png" alt="stars">
+                </div>
+                <div class="usa__item-1"></div>
+                <div class="usa__item-2"></div>
+                <div class="usa__item-3"></div>
+                <div class="usa__item-3"></div>
+                <div class="usa__item-3"></div>
+                <div class="usa__item-3"></div>
+            </div>
+            <h2>justify-content:space-evently</h2>
+            <h3>Puerto Rico</h3>
+            <div class="puerto-rico">
+                <div class="star">
+                    <img src="img/star.png" alt="stars">
+                </div>
+                <div class="puerto-rico__item-1"></div>
+                <div class="puerto-rico__item-2"></div>
+            </div>
+            <h2>flex-direction:column</h2>
+            <h3>Serbia</h3>
+            <div class="serbia">
+                <img class="serbia-eagle" src="img/eagle-serbia.png" alt="">
+                <div class="serbia__item-1"></div>
+                <div class="serbia__item-2"></div>
+            </div>
+            <h2>align-items:flex-start</h2>
+            <h3>Wallis and Futuna(France)</h3>
+            <div class="wallis-and-futuna">
+                <img class="wallis-and-futuna__img" src="img/triangles.png" alt="">
+                <div class="wallis-and-futuna__items">
+                    <div class="wallis-and-futuna__item-1"></div>
+                    <div class="wallis-and-futuna__item-2"></div>
+                    <div class="wallis-and-futuna__item-3"></div>
+                </div>
+            </div>
+            <h2>align-items:flex-end</h2>
+            <h3>Ecuador</h3>
+            <div class="ecuador">
+                <img class="ecuador__img" src="img/ecuador-eagle.png" alt="">
+                <div class="ecuador__items">
+                    <div class="ecuador__item-1"></div>
+                    <div class="ecuador__item-2"></div>
+                </div>
+            </div>
+            <h2>flex-grow:1,align-self: center</h2>
+            <h3>Saint Vincent and the Grenadines</h3>
+            <div class="grenadines">
+                <img class="grenadines__img" src="img/grenadines.png" alt="">
+                <div class="grenadines__item-1"></div>
+                <div class="grenadines__item-2"></div>
+                <div class="grenadines__item-3"></div>
+            </div>
+            <h2>gap,flex-grow,flex-shrink,flex-basis</h2>
+            <h3>Georgia</h3>
+            <div class="georgia">
+                <div class="georgia__top">
+                    <div class="georgia__item">
+                        <img class="georgia__img" src="img/georgia-cross.png" alt="">
+                    </div>
+                    <div class="georgia__item">
+                        <img class="georgia__img" src="img/georgia-cross.png" alt="">
+                    </div>
+                </div>
+                <div class="georgia__bottom">
+                    <div class="georgia__item">
+                        <img class="georgia__img" src="img/georgia-cross.png" alt="">
+                    </div>
+                    <div class="georgia__item">
+                        <img class="georgia__img" src="img/georgia-cross.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <h2>order</h2>
+            <h3>Mongolia</h3>
+            <div class="mongolia">
+                <img class="mongolia__img" src="img/mongolia.png" alt="">
+                <div class="mongolia__item mongolia__item--1"></div>
+                <div class="mongolia__item mongolia__item--2"></div>
+                <div class="mongolia__item mongolia__item--3"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

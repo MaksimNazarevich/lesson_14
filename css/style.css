@@ -1,0 +1,463 @@
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+    display: flex;
+	flex-direction: column;
+    padding-bottom: 50px;
+}
+.wrapper > main{
+	flex-grow: 1;
+}
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+.lesson-title{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.lesson-title{
+    
+    font-size: 48px;
+    font-weight: 900;
+    color: red;
+}
+
+h2{
+    font-size: 36px;
+}
+
+h3{
+    font-size: 24px;
+}
+/*------------------------------------------------------------------------*/
+.italy{
+    outline: 2px solid  black;
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+    min-height: 350px;
+}
+.italy__item {
+    padding: 10px;
+    width: 100%;
+}
+.italy__item--green {
+    background-color: green;
+    
+}
+.italy__item--white {
+    background-color: #fff;
+    
+}
+.italy__item--red {
+    background-color: red;
+    
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+.flag{
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.peru{
+    outline: 2px solid  black;
+    display: inline-flex;
+    min-height: 350px;
+    width: 100%;
+}
+
+.peru__item--white {
+    background-color: #fff;
+    width: 100%;
+}
+.peru__item--red {
+    background-color: red;
+    width: 100%;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+
+.austria{
+    outline: 2px solid  black;
+    display: inline-flex;
+    flex-wrap: wrap;
+    min-height: 350px;
+    width: 100%;
+}
+
+.austria__item--white {
+    background-color: #fff;
+    width: 100%;
+}
+.austria__item--red {
+    background-color: red;
+    width: 100%;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+.irland{
+    outline: 2px solid  black;
+    display: flex;
+    min-height: 250px;
+    margin: 0 auto;
+    max-width: 500px;
+    justify-content: space-between;
+}
+
+.irland__item--green {
+    background-color: green;
+    width: 33.333%;
+}
+.irland__item--orange {
+    background-color: rgb(214, 108, 16);
+    width: 33.333%;
+}
+
+
+/*---------------------------------------------------------------------------------------*/
+
+.zambia{
+    outline: 2px solid  black;
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 600px;
+    background-color: #198a00;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+}
+
+.eagle{
+    position: absolute;
+    top: 51px;
+    right: 19px;
+}
+
+.zambia__items {
+    width:322px;
+    height: 386px;
+    display: flex;
+}
+.zambia__item-1 {
+    background-color: #de2010;
+    width: 33.333%;
+}
+.zambia__item-2 {
+    background-color: #000;
+    width: 33.333%;
+}
+.zambia__item-3 {
+    background-color: #ef7d00;
+    width: 33.333%;
+}
+
+/*------------------------------------------------------------*/
+
+.brasil{
+    outline: 2px solid  black;
+    display: flex;
+    max-width: 749px;
+    margin: 0 auto;
+    min-height: 525px;
+    background-color: #009c37;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+.brasil__item-1{
+    z-index: 2;
+}
+
+.brasil__item-2{
+    position: absolute;
+}
+
+/*--------------------------------------------------------------*/
+
+.usa{
+    outline: 2px solid  black;
+    display: flex;
+    max-width: 1235px;
+    margin: 0 auto;
+    min-height: 650px;
+    background-color: #bb133e;
+    position: relative;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 50px;
+    
+}
+
+.stars{
+    position: absolute;
+    top: 0;
+}
+
+.usa__item-1,
+.usa__item-2,
+.usa__item-3,
+.usa__item-4,
+.usa__item-5,
+.usa__item-6
+{
+    background-color: #fff;
+    min-height: 50px;
+}
+
+
+/*-----------------------------------------------------------*/
+
+
+.puerto-rico{
+    outline: 2px solid  black;
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 600px;
+    background-color: #bb133e;
+    position: relative;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.star{
+    position: absolute;
+    top: 0;
+}
+
+.puerto-rico__item-1,
+.puerto-rico__item-2{
+    background-color: #fff;
+    min-height: 120px;
+}
+
+/*------------------------------------------------------------*/
+
+.serbia{
+    outline: 2px solid  black;
+    display: flex;
+    max-width: 640px;
+    margin: 0 auto;
+    min-height: 427px;
+    background-color: #fff;
+    flex-direction:column;
+    position: relative;
+}
+
+.serbia-eagle{
+    position: absolute;
+    left: 145px;
+    top: 37px;
+}
+.serbia__item-1{
+    background-color: #c73339;
+    width: 100%;
+    min-height: 142px;
+}
+.serbia__item-2{
+    background-color: #043e77;
+    width: 100%;
+    min-height: 142px;
+}
+
+/*-----------------------------------------------------------*/
+
+.wallis-and-futuna{
+    outline: 2px solid  black;
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 600px;
+    background-color: #ce1126;
+    align-items: flex-start;
+    position: relative;
+}
+
+.wallis-and-futuna__img{
+    position: absolute;
+    top: 204px;
+    right: 174px;
+}
+
+.wallis-and-futuna__items {
+    display: flex;
+    max-width: 363px;
+    min-height: 243px;
+    border-right: 4px solid #fff;
+    border-bottom:4px solid #fff ;
+}
+.wallis-and-futuna__item-1 {
+    background-color: #002654;
+    width: 121px;
+}
+.wallis-and-futuna__item-2 {
+    background-color: #fff;
+    width: 121px;
+}
+.wallis-and-futuna__item-3 {
+    background-color: #ce1126;
+    width: 121px;
+}
+
+/*-----------------------------------------------------------*/
+
+.ecuador{
+    outline: 2px solid  black;
+    display: flex;
+    max-width: 640px;
+    margin: 0 auto;
+    min-height: 427px;
+    background-color: #ffde00;
+    align-items: flex-end;
+    position: relative;
+}
+
+.ecuador__img{
+    position: absolute;
+    align-self: center;
+    left:242px;
+}
+
+.ecuador__items {
+    display: flex;
+    width: 100%;
+    min-height: 212px;
+    flex-direction: column;
+    outline: 1px solid #000;
+}
+.ecuador__item-1 {
+    background-color: #004da3;
+    height: 106px;
+    
+}
+.ecuador__item-2 {
+    background-color: #ee151f;
+    height:106px;
+}
+
+/*--------------------------------------------------------------------*/
+
+
+.grenadines{
+    outline: 2px solid  black;
+    display: flex;
+    max-width: 640px;
+    margin: 0 auto;
+    min-height: 427px;
+    position: relative;
+}
+
+.grenadines__img{
+    position: absolute;
+    align-self: center;
+    left:242px;
+}
+
+.grenadines__item-1 {
+    background-color: #002674;
+    width: 160px;
+    
+}
+.grenadines__item-2 {
+    background-color: #fcd022;
+    flex-grow: 1;
+}
+.grenadines__item-3 {
+    background-color: #007c2e;
+    width:160px;
+}
+
+
+/*-------------------------------------------------------------------*/
+.georgia{
+    outline: 2px solid  black;
+    max-width: 640px;
+    margin: 0 auto;
+    min-height: 427px;
+    background-color: #ff0000;
+    display: flex;
+    flex-direction: column;
+    row-gap: 88px;
+}
+
+.georgia__top {
+    display: flex;
+    gap: 88px;
+    width: 100%;
+    flex:0 1 170px;
+    background-color: #ff0000;
+}
+.georgia__item {
+    background-color: #fff;
+    flex: 0 1 277px;
+    position: relative;
+}
+.georgia__bottom {
+    display: flex;
+    gap: 88px;
+    width: 100%;
+    flex: 0 1 170px;
+    background-color: #ff0000;
+}
+
+.georgia__img{
+    position: absolute;
+    left: 95px;
+    top: 42px;
+}
+
+/*----------------------------------------------------------------*/
+
+.mongolia {
+    display: flex;
+    max-width: 640px;
+    min-height: 320px;
+    margin: 0 auto;
+    outline: 2px solid  black;
+    position: relative;
+}
+.mongolia__item {
+    flex: 0 1 33.333%;
+    
+}
+
+.mongolia__item--1{
+    background-color: #dc171c;
+    order: 1;
+}
+
+.mongolia__item--2{
+    background-color: #dc171c;
+    order: 3;
+}
+
+.mongolia__item--3{
+    background-color: #17a6e0;
+    order: 2;
+}
+
+.mongolia__img{
+    position: absolute;
+    left: 48px; 
+    top: 33px;
+}
+
+
+
+  
